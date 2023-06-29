@@ -5,7 +5,6 @@ import styles from '../TypesList/TypesList.module.scss';
 import PokemonListItem from "../../PokemonList/PokemonListItem";
 import { FilterContext } from "../../../pages/mainPage/MainPage";
 
-
 const TypesList = ({ pokemon }) => {
 
     const filterObject = useContext(FilterContext)
