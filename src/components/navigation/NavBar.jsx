@@ -12,4 +12,5 @@ const NavBar = ({setMenuState}) => {
 	);
 };
 
+
 export default NavBar;
