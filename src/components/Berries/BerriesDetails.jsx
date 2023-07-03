@@ -27,6 +27,7 @@ const BerriesDetails = () => {
     // console.log(json.id);
 
     const navigate = useNavigate()
+    
 
     function nextBerry() {
         fetch(`https://pokeapi.co/api/v2/berry/${json.id + 1}`)
