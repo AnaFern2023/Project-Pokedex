@@ -4,7 +4,6 @@ import { useState, useEffect, useContext } from "react";
 import { ThemeContext } from '../../App';
 import TypesList from '../../components/PokemonTypes/TypesList/TypesList';
 
-
 const TypeDetailPage = () => {
 
     const typeName = useParams();
